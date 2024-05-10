@@ -55,9 +55,9 @@ var gameConfig={
 
 noseX="";
 noseY="";
-gamestart="";
+GameStatus="";
 function startGame() {
-  gamestart = "start";
+  GameStatus = "start";
   document.getElementById("status").innerHTML = "Game is loading";
 }
 
